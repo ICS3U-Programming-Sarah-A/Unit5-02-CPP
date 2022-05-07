@@ -41,7 +41,7 @@ int main() {
             heightUserFloat = std::stof(heightUserStr);
 
             // sets a range.
-            if (baseUserFloat >= 0 && heightUserFloat >= 0) {
+            if (baseUserFloat > 0 && heightUserFloat > 0) {
                 // calls function
                 CalcArea(baseUserFloat, heightUserFloat);
             } else {
